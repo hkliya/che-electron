@@ -6,6 +6,16 @@ git clone http://github.com/tylerjewell/che-electron
 npm run pack:all
 ```
 
+Optionally, you can build the executable just for your platform.
+```sh
+npm run pack:win64
+npm run pack:win32
+npm run pack:linux64
+npm run pack:linux32
+npm run pack:osx
+```
+
+
 # Run App
 
 ### Windows
