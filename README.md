@@ -25,6 +25,5 @@ open eclipse-che.app . <che-server-url>
 ```sh
 cd dist\eclipse-che-linux-ia32\
 cd dist\eclipse-che-linux-x64\
-```
-
 ./eclipse-che . <che-server-url>
+```
