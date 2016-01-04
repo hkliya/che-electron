@@ -2,6 +2,9 @@ Electron desktop app for Eclipse Che clients. Generate native platform execuatab
 
 # Create Executables
 ```sh
+# Install dependencies
+npm install electron-packager -g
+
 git clone http://github.com/tylerjewell/che-electron
 npm run pack:all
 ```
