@@ -30,13 +30,13 @@ eclipse-che . <che-server-url>
 
 ### Mac
 ```sh
-cd dist\eclipse-che-darwin-x64\
+cd dist/eclipse-che-darwin-x64/
 open eclipse-che.app . <che-server-url>
 ```
 
 ### Linux
 ```sh
-cd dist\eclipse-che-linux-ia32\
-cd dist\eclipse-che-linux-x64\
+cd dist/eclipse-che-linux-ia32/
+cd dist/eclipse-che-linux-x64/
 ./eclipse-che . <che-server-url>
 ```
