@@ -1,6 +1,13 @@
 Electron desktop app for Eclipse Che clients. Generate native platform execuatables that will launch Electron desktop applications that will connect to Eclipse Che or Codenvy servers.
 
-# Create Executables
+# Download Packaged Executables
+1. [Linux x64](https://github.com/TylerJewell/che-electron/releases/download/4.0.0-beta/eclipse-che-electron-linux64.zip)
+2. [Linux x32](https://github.com/TylerJewell/che-electron/releases/download/4.0.0-beta/eclipse-che-electron-linux32.zip)
+3. [Windows x64](https://github.com/TylerJewell/che-electron/releases/download/4.0.0-beta/eclipse-che-electron-win64.zip)
+4. [Windows x32](https://github.com/TylerJewell/che-electron/releases/download/4.0.0-beta/eclipse-che-electron-win32.zip)
+5. [OSX](https://github.com/TylerJewell/che-electron/releases/download/4.0.0-beta/eclipse-che-electron-osx.zip)
+
+# Build Executables From Source
 ```sh
 # Install dependencies
 npm install electron-packager -g
