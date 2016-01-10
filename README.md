@@ -7,27 +7,6 @@ Electron desktop app for Eclipse Che clients. Generate native platform execuatab
 4. [Windows x32](https://github.com/TylerJewell/che-electron/releases/download/4.0.0-beta/eclipse-che-electron-win32.zip)
 5. [OSX](https://github.com/TylerJewell/che-electron/releases/download/4.0.0-beta/eclipse-che-electron-osx.zip)
 
-# Build Executables From Source
-```sh
-# Install dependencies
-npm install electron-packager -g
-
-git clone http://github.com/tylerjewell/che-electron
-npm run pack:all
-```
-
-Optionally, you can build the executable just for your platform.
-```sh
-npm run pack:win64
-npm run pack:win32
-npm run pack:linux64
-npm run pack:linux32
-
-## If building on windows, this command will fail if console is not run as administrator
-npm run pack:osx
-```
-
-
 # Run App
 
 ### Windows
@@ -48,4 +27,24 @@ open eclipse-che.app . <che-server-url>
 cd dist/eclipse-che-linux-ia32/
 cd dist/eclipse-che-linux-x64/
 ./eclipse-che . <che-server-url>
+```
+
+# Build Executables From Source
+```sh
+# Install dependencies
+npm install electron-packager -g
+
+git clone http://github.com/tylerjewell/che-electron
+npm run pack:all
+```
+
+Optionally, you can build the executable just for your platform.
+```sh
+npm run pack:win64
+npm run pack:win32
+npm run pack:linux64
+npm run pack:linux32
+
+## If building on windows, this command will fail if console is not run as administrator
+npm run pack:osx
 ```
