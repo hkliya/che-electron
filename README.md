@@ -15,6 +15,8 @@ npm run pack:win64
 npm run pack:win32
 npm run pack:linux64
 npm run pack:linux32
+
+## If building on windows, this command will fail if console is not run as administrator
 npm run pack:osx
 ```
 
