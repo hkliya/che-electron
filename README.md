@@ -5,7 +5,7 @@ Electron desktop app for Eclipse Che clients. Generate native platform execuatab
 2. [Linux x32](https://github.com/TylerJewell/che-electron/releases/download/4.0.0-beta/eclipse-che-electron-linux32.zip)
 3. [Windows x64](https://github.com/TylerJewell/che-electron/releases/download/4.0.0-beta/eclipse-che-electron-win64.zip)
 4. [Windows x32](https://github.com/TylerJewell/che-electron/releases/download/4.0.0-beta/eclipse-che-electron-win32.zip)
-5. [OSX](https://github.com/TylerJewell/che-electron/releases/download/4.0.0-beta/eclipse-che-electron-osx.zip)
+5. OSX: You need to currently build the client natively (see build instructions below).
 
 # Run App on Command Line
 
@@ -16,7 +16,7 @@ eclipse-che . <che-server-url>
 
 ### Mac
 ```sh
-open eclipse-che.app . <che-server-url>
+open eclipse-che.app --args . http://localhost:8080
 ```
 
 ### Linux
