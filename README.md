@@ -30,7 +30,7 @@ open eclipse-che.app --args . http://localhost:8080
 npm install electron-packager -g
 
 git clone http://github.com/tylerjewell/che-electron
-npm run pack:all
+cd che-electron && npm run pack:all
 ```
 
 Optionally, you can build the executable just for your platform.
